@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire Achat</title>
+    <link rel="stylesheet" href="../style/style6.css">
+</head>
+<body>
+    <header>Achetez un Bien IMMOBILIER</header>
+    <p>Remplissez ce formulaire pour l'achat.</p>
+    <main>
+        <form action="../exo15.php" method="POST">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <input type="tel" name="telephone" placeholder="Votre numéro de téléphone" required>
+            <input type="text" name="location" placeholder=" Votre Localisation" required>
+            <input type="text" name="carte bankaire" placeholder="Numéro carte bankaire" required>
+            <button type="submit" class="submit-bouton">Confirmer l'achat</button>
+        </form>
+    </main>
+    <form action="acheter.html" method="GET">
+        <button type="submit" class="back-btn">Retourner à la page précédente</button>
+    </form>
+</body>
+</html>

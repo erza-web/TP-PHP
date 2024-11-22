@@ -1,0 +1,21 @@
+table{
+        border: 1px solid black;
+        border-collapse:collapse;
+        margin: 20px auto;
+        font-size: 18px;
+    }
+    th{
+        padding: 10px;
+        text-align:center;
+        border: 2px solid black;
+        background-color:grey;
+    }
+    td{
+        padding: 20px;
+        text-align:center;
+        border: 2px solid black;
+        background-color:grey;
+    }
+    h2{
+        text-align:center;
+    }

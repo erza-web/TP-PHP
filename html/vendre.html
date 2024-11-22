@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTE</title>
+    <link rel="stylesheet" href="../style/style4.css">
+</head>
+<body>
+    <div class="contenu">
+    <h1>Vendez ici votre bien immobilier</h1>
+    <p>Remplissez ce formulaire pour pouvoir faire votre annonce</p>
+    <form action="../exo15.php" method="POST">
+        <input type="text" name="nom" placeholder="votre nom" required>
+        <input type="mail" name="mail" placeholder="votre mail" required>
+        <input type="tel" name="telephone" placeholder="votre telephone" required>
+        <select name="property_type" required>
+            <option value="" disabled selected>Type du bien immobilier</option>
+            <option value="maison" >Maison</option>
+            <option value="appartement" >Appartement</option>
+            <option value="terrain" >Terrain</option>
+        </select>
+        <input type="text" name="location" placeholder="Emplacement du bien" required>
+        <input type="number" name="prix" placeholder="Prix à payer (en €)" required>
+        <textarea name="description" placeholder="Description du bien (superficie,couleur,etc)"></textarea>
+        <button type="submit" class="bouton1">Publier mon annonce</button>
+    </form>
+    </div>
+    <form action="../exo15.php" method="get">
+        <button type="submit" class="bouton2">Retourner à la page principale</button>
+    </form>
+</body>
+</html> 
