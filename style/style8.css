@@ -1,0 +1,53 @@
+body{
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    flex-wrap: wrap; 
+    background-color: #f4f4f9; 
+    color: #333;
+    background-image: url(../image/Coeur-de-reseau-Composant-essentiel-de-linfrastructure-informatique.jpg);
+}
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+body,p,a,h1,li{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+.contenu{
+    margin-left: 22%; 
+    padding: 2rem; 
+    width: 75%; 
+    background-color: rgba(16, 1, 1, 0.5);
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    margin-top: 2rem;
+}
+.contenu h1{
+    font-size: 2.5rem; 
+    color: #e8e8f8; 
+    text-align: center; 
+    margin-bottom: 1rem;
+}
+.contenu p{
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    color: #f3f8f8; 
+    text-align: center; 
+}
+li{
+    margin: 0.5rem 0; 
+    text-align: center;
+
+}
+a{
+    text-decoration: none; 
+    color: #eae9ef; 
+    font-size: 1rem; 
+    display: block; 
+    padding: 0.5rem 0; 
+    transition: all 0.3s ease; 
+    background-color: #2a09cf;
+}
